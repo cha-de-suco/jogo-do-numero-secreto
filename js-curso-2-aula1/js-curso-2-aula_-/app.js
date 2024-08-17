@@ -13,7 +13,7 @@ function escreveTexto(tag, texto) {
     h1.innerHTML = tag;
     p.innerHTML = texto;
     responsiveVoice.speak(texto ,"Brazilian Portuguese Female", {rate:1.0});
-    
+
     //utilizamos o método speak para tocar uma voz em responsiveVoice.
     // passamos os parametros de conteúdo, idioma e velocidade.
     //{rate:1.0} indica a velocidade da fala, qual maior os números mais rápido é a fala
